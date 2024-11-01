@@ -1,0 +1,39 @@
+div>div{
+    width: 150px;
+    height: 150px;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+}
+
+#red{
+    margin-top: 24px;
+    background-color: red;
+    transition: all 1s linear 0s;
+}
+
+#blue{
+    margin-top: 24px;
+    background-color: blue;
+    transition: all 1s linear 0s;
+}
+
+#green{
+    margin-top: 24px;
+    background-color: green;
+    transition: all 1s linear 0s;
+}
+
+#green:hover,
+#red:hover{
+    width: 300px;
+}
+
+#green:hover,
+#blue:hover{
+    height: 300px;
+}
